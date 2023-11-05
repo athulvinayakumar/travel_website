@@ -1,0 +1,289 @@
+.navbar-nav .nav-link.active {
+    color: #fff;
+    font-weight: 500;
+    margin-left: 21px;
+}
+
+.navbar-brand:hover {
+    color: rgb(0, 0, 0);
+}
+
+.nav-link.active:hover {
+    color: rgb(0, 0, 0);
+}
+
+#header {
+    /* background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.2)), url('https://websitedemos.net/outdoor-adventure-02/wp-content/uploads/sites/351/2018/11/hero-bg.jpg'); */
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.2)), url('https://images.unsplash.com/photo-1540278383344-ecd917e4fe23?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80');
+    background-size: cover;
+    height: 90vh;
+}
+
+.hy {
+    display: flex; 
+    flex-direction: column; 
+    justify-content: flex-end; 
+    height: 50vh;
+}
+#home{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.2)),url(https://a.travel-assets.com/travel-assets-manager/cread-2248/US-HP-Hero-D-928x398.jpg?impolicy=fcrop&w=1400&h=600&q=mediumHigh);
+    width: 90%;
+    height: 80%;
+    border-radius: 1%;
+    margin-left: 5%;
+}
+
+.rooms {
+    margin: 0.4%;
+}
+
+.room_pic {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.room_pic:hover {
+    transform: scale(0.9);
+    cursor: pointer;
+}
+
+/* .b-card:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+} */
+.b-card {
+    border: none;
+    transition: transform 0.2s, box-shadow 0.2s;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.b-card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.b-card img {
+    border-radius: 10px 10px 0 0;
+}
+
+.b-card h5 {
+    font-size: 18px;
+    margin-top: 15px;
+    font-weight: bold;
+}
+
+.b-card p {
+    font-size: 14px;
+    margin-bottom: 15px;
+    color: #777;
+}
+
+.b-card:hover h5,
+.b-card:hover p {
+    color: #000; /* Change text color on hover */
+}
+
+#btn {
+    margin-left: -10%;
+}
+
+#btn:hover {
+    color: red;
+}
+
+.card img {
+    max-width: 100%;
+    height: auto;
+}
+.service-card:hover {
+    background-color: #006aff;
+}
+
+.service-card {
+    background-color: #f4f4f4;
+    padding: 20px;
+    border: 1px solid #ddd;
+    text-align: center;
+    margin-bottom: 20px;
+    /* transition: transform 0.3s ease-in-out; */
+}
+
+.service-card img {
+    max-width: 100%;
+    height: auto;
+}
+
+.service-card h4 {
+    font-size: 20px;
+    margin-top: 10px;
+    color: #333;
+}
+
+.service-card p {
+    color: black;
+}
+
+.service-card:hover {
+    transform: scale(1.05);
+    background-color: #006aff;
+}
+
+form {
+    margin-top: 50px;
+}
+
+form div {
+    margin-bottom: 15px;
+}
+
+form input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+form button {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+
+}
+.icon-set{
+    margin-top: 3%;
+    display: flex;
+    justify-content: center;/* hortizontally center*/
+    align-items: center;/* vertically center*/  
+}
+.icon{
+    width: 30px;
+    height: 50px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;/* hortizontally center*/
+    align-items: center;/* vertically center*/ 
+    margin-right: 10px;
+} 
+.icon i{
+    font-size: 25px;
+    color: white;
+}
+.icon i:hover{
+   color: yellow;
+  
+}
+
+#gallery{
+    padding: 10px;
+}
+#gallery:hover img {
+    transform: scale(0.9);
+}
+
+.content{
+    position: relative;
+    
+}
+.content h4 {
+    position: absolute;
+    top: 230%; /* Adjust this value to move the content down or up */
+    /* left: 50%; */
+}
+
+.content p {
+    position: absolute;
+    top: 300%;
+}
+.content a{
+    position: absolute;
+    top: 350%;
+    left:2%;
+    border: none;
+}
+.a-card:hover {
+    background-color: #ff9900;
+}
+
+.rating {
+    color: #4800ff;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+.scan img {
+    max-width: 100%;
+    height: auto;
+}
+.img1:hover{
+    transform: scale(0.9);
+}
+.img2:hover{
+    transform: scale(1.2);
+}
+
+
+.decorative-element {
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.decorative-element img {
+    max-width: 100%;
+    height: auto;
+}
+
+#team-members {
+    background-color: #f9f9f9;
+    padding: 20px 0;
+  }
+  
+  .team-member {
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .team-member img {
+    width: 100%;
+    height: auto;
+    transition: transform 0.3s;
+  }
+  
+  .member-details {
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.7);
+    color: #fff;
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    transition: left 0.3s;
+  }
+  
+  .team-member:hover img {
+    transform: scale(1.1);
+  }
+  
+  .team-member:hover .member-details {
+    left: 0;
+  }
+  
+  .team-member h3 {
+    margin: 0;
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
+  .team-member p {
+    margin: 0;
+    font-size: 14px;
+    margin-top: 5px;
+  }
+  
